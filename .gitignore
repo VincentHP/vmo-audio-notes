@@ -1,0 +1,30 @@
+# Local plugin state and credentials
+data.json
+.env
+.env.*
+*.pem
+*.key
+
+# Vaults, recordings, and models
+.obsidian/
+*.aiff
+*.wav
+*.m4a
+*.mp3
+*.mp4
+*.webm
+*.ogg
+*.flac
+*.bin
+*.gguf
+*.part
+
+# Local benchmark and diagnostic outputs
+benchmark-*.json
+*-diagnostic.*
+*.log
+test-results.txt
+
+# Editor and OS files
+.DS_Store
+node_modules/
